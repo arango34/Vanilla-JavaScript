@@ -1,0 +1,24 @@
+{
+        game: 'Scarface',
+        answer: 'SCARFACE',
+        category: 'Movies',
+        hint: 'Al Pacino',
+        answerHTML1: ['S', 'C', 'A', 'R', 'F', 'A', 'C', 'E'],
+        answerHTML2: []
+},
+{
+        game: 'The Godfather',
+        answer: 'THEGODFATHER',
+        category: 'Movies',
+        hint: 'Corleone',
+        answerHTML1: ['T', 'H', 'E'],
+        answerHTML2: ['G', 'O', 'D', 'F', 'A', 'T', 'H', 'E', 'R']
+},
+{
+        game: 'Florida',
+        answer: 'FLORIDA',
+        category: 'States',
+        hint: 'Sunshine',
+        answerHTML1: ['F', 'L', 'O', 'R', 'I', 'D', 'A'],
+        answerHTML2: []
+}

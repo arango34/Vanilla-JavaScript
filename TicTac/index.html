@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>TicTacToe</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="center">
+        <div class="center-center">
+          <h1>Tic-Tac-Toe</h1>
+        </div>
+        <div class="underline"></div>
+      </div>
+    </header>
+
+    <section class="section-center">
+      <div class="alert"></div>
+      <div class="grid-container">
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <div class="square top-left" data-id="top-left"></div>
+        <div class="square top-middle" data-id="top-middle"></div>
+        <div class="square top-right" data-id="top-right"></div>
+        <div class="square middle-right" data-id="middle-right"></div>
+        <div class="square middle" data-id="middle"></div>
+        <div class="square middle-left" data-id="middle-left"></div>
+        <div class="square bottom-left" data-id="bottom-left"></div>
+        <div class="square bottom-middle" data-id="bottom-middle"></div>
+        <div class="square bottom-right" data-id="bottom-right"></div>
+      </div>
+      <div class="score-container">
+        <div>
+          <span>P1</span>(x)
+          <span class="p1 player score p1-score"> 0</span>
+        </div>
+        <div>
+          <span class="type">CPU</span>(o)
+          <span class="p2 player score p2-score"> 0</span>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="btn btn-clear">Clear Score</button>
+        <button class="btn player-btn">2 Player</button>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
